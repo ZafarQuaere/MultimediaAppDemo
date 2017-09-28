@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="value_request_timeout">1800000</integer><!-- in milliseconds -->
+    <!--<integer name="value_tgProductId_flight_pass">0</integer>-->
+    <integer name="value_tgProductId_fpo">9</integer>
+    <integer name="value_tgpLevel">3</integer>
+    <integer name="value_CountryId_default">0</integer>
+    <integer name="value_LanguageId_default">0</integer>
+    <integer name="value_AirlineId">978</integer>
+    <integer name="value_customer_type_2">2</integer>
+    <integer name="value_customer_type_1">1</integer>
+</resources>

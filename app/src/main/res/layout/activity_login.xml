@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="@dimen/dp_5"
+    android:background="@color/app_background"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/dp_20"
+        android:background="@color/color_white"
+        android:padding="@dimen/dp_10">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:id="@+id/lytHeader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/bg_screen3">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="@dimen/dp_20"
+                    android:paddingLeft="@dimen/dp_15"
+                    android:paddingRight="@dimen/dp_5"
+                    android:paddingTop="@dimen/dp_20"
+                    android:text="Login - Profile"
+                    android:textColor="@color/color_white"
+                    android:textSize="@dimen/size_font_18" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/dp_5"
+                    android:padding="@dimen/dp_5"
+                    android:src="@drawable/ic_login_white_24dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentEnd="true"
+                    android:id="@+id/imageView2" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/lytInputs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lytHeader"
+                android:layout_marginTop="@dimen/dp_25"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/dp_20"
+                android:paddingRight="@dimen/dp_20">
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/editEmail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:maxLength="70"
+                        android:text=""
+                        android:hint="@string/email"
+                        android:textSize="@dimen/size_font_14" />
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp_10">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/editPassword"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textWebPassword"
+                        android:maxLength="50"
+                        android:text=""
+                        android:hint="@string/password"
+                        android:textSize="@dimen/size_font_14" />
+                </android.support.design.widget.TextInputLayout>
+
+                <TextView
+                    android:visibility="gone"
+                    android:id="@+id/txtForgotPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp_15"
+                    android:gravity="center_horizontal"
+                    android:text="@string/forgot_password"
+                    android:textColor="@color/bg_screen3"
+                    android:textSize="@dimen/size_font_14" />
+
+                <Button
+                    android:id="@+id/btnLogin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp_15"
+                    android:layout_marginRight="@dimen/dp_15"
+                    android:layout_marginTop="@dimen/dp_45"
+                    android:background="@drawable/rounded_background"
+                    android:text="@string/login"
+                    android:textColor="@color/color_white"
+                    android:textSize="@dimen/size_font_14" />
+
+                <TextView
+                    android:id="@+id/txtRegister"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp_55"
+                    android:gravity="center_horizontal"
+                    android:text="Register Here.."
+                    android:textSize="@dimen/size_font_18"
+                    android:textStyle="normal"
+                    android:textColor="@color/bg_screen3" />
+
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>

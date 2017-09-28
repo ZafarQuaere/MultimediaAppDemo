@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <bool name="bool_read_from_local">false</bool>
+    <bool name="bool_default_font">true</bool>
+
+    <bool name="validate">true</bool>
+
+    <bool name="redeem_enable">true</bool>
+
+    <bool name="my_bookings_enable">true</bool>
+
+</resources>
