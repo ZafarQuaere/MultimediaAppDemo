@@ -4,7 +4,7 @@ import android.content.Context;
 import android.content.SharedPreferences;
 
 /**
- * Created by parasmani.sharma on 18/11/2016.
+ *
  */
 public class PrefManager {
 
@@ -16,7 +16,7 @@ public class PrefManager {
     int PRIVATE_MODE = 0;
 
     // Shared preferences file name
-    private static final String PREF_NAME = "paras-welcome";
+    private static final String PREF_NAME = "zafar-welcome";
 
     private static final String IS_FIRST_TIME_LAUNCH = "IsFirstTimeLaunch";
 
