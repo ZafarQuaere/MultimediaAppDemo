@@ -56,14 +56,14 @@ public class AppSharedPrefs {
             edit.putStringSet(key, (Set) value);
         }
 
-        edit.commit();
+        edit.apply();
     }
 
     public void clearAll() {
-        sf.edit().clear().commit();
+        sf.edit().clear().apply();
     }
 
     public void clear(String key) {
-        sf.edit().remove(key).commit();
+        sf.edit().remove(key).apply();
     }
 }
